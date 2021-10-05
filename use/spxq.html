@@ -6,11 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/gonggong.min.css">
-    <link rel="stylesheet" href="../css/help.min.css">
 </head>
 <body>
-     <!-- 公共上 -->
-     <div class="title">
+    <div class="title">
         <div class="title-top">
             <img src="../imgs/logonew.png" alt="">
             <ul>
@@ -26,32 +24,6 @@
         </div>
     </div>
 
-    <div class="mfsy">
-        <div class="mfsy-t">
-            <h1>免费试用</h1>
-        </div>
-        <div class="mfsy-b">
-            <div>
-                <span class="mfsy-b-c">大众试用</span>
-                <span>体验师专享</span>
-            </div>
-        </div>
-    </div>
-    <div class="mfsy-fl">
-        <div>
-            <div>
-                <span >全部</span>
-                <span class="fl-col">申请中</span>
-                <span>试用中</span>
-                <span>已结束</span>
-            </div>
-        </div>
-    </div>
-    <div class="mfsy-qb">
-        <ul class="qb-box">
-        </ul>
-    </div>
-    <!-- 公共下 -->
     <div class="bottom">
         <div class="bottom-l">
             <img src="../imgs/code.png" alt="" class="ewei">
@@ -113,19 +85,4 @@
          
     </div>
 </body>
-<script src="../js/jquery.min.js"></script>
-<script id="first" type="text/html">
-    {{each value}}
-        <li>
-           <img src="{{$value.img}}" alt="">
-           <h3>{{$value.text}}</h3>
-           <div><div><span>{{$value.totalnum}}</span><span>{{$value.num}}台</span></div></div>
-           <p><span>{{$value.apply}}</span><span>申请</span></p>
-           <span class="xr-sp2">{{$value.info_ty}}</span>
-           <span class="xr-sp"></span>
-        </li>
-    {{/each}}
-</script>
-<script src="../js/template-web.js"></script>
-<script src="../js/help.js"></script>
 </html>

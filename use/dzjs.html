@@ -5,8 +5,127 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/gonggong.min.css">
+    <link rel="stylesheet" href="../css/help.min.css">
 </head>
 <body>
-    
+     <!-- 公共上 -->
+     <div class="title">
+        <div class="title-top">
+            <img src="../imgs/logonew.png" alt="">
+            <ul>
+                <li class="list"><a href="#" class="dgou">首页</a></li>
+                <li class="list"><a href="#" class="dgou">酷玩</a></li>
+                <li class="list"><a href="#" class="dgou">导购</a></li>
+                <li class="list"><a href="#" class="dgou">试用</a></li>
+                <li class="list"><a href="#" class="dgou">报告</a></li>
+            </ul>
+            <span class="zce">登陆</span>
+            <span class="zce">注册</span>
+            <span class="search"></span>
+        </div>
+    </div>
+
+    <div class="mfsy">
+        <div class="mfsy-t">
+            <h1>免费试用</h1>
+        </div>
+        <div class="mfsy-b">
+            <div>
+                <span class="mfsy-b-c">大众试用</span>
+                <span>体验师专享</span>
+            </div>
+        </div>
+    </div>
+    <div class="mfsy-fl">
+        <div>
+            <div>
+                <span >全部</span>
+                <span >申请中</span>
+                <span >试用中</span>
+                <span class="fl-col">已结束</span>
+            </div>
+        </div>
+    </div>
+    <div class="mfsy-qb">
+        <ul class="qb-box">
+        </ul>
+    </div>
+    <!-- 公共下 -->
+    <div class="bottom">
+        <div class="bottom-l">
+            <img src="../imgs/code.png" alt="" class="ewei">
+            <ul class="bot-l">
+                <li><img src="../imgs/logoImg.jpg" alt=""></li>
+                <li>全球酷玩试用导购平台酷·新奇·好玩·品质</li>
+                <li>微信添加“JguoJguo”获取我们的服务。</li>
+            </ul>
+
+            <ul class="bot-2">
+                <p>免费试用</p>
+                <li><a href="#">试用流程</a></li>
+                <li><a href="#">如何提高成功率</a></li>
+            </ul>
+            <ul class="bot-3">
+                <p>友情链接</p>
+                <li>
+                    <a href="#">智东西</a><a href="#">WEIBUSI</a>
+                </li>
+                <li>
+                    <a href="#">搜狐IT </a><a href="#">腾讯科技</a>
+                </li>
+                <li>
+                    <a href="#">搜狐数码</a><a href="#">凤凰科技</a>
+                </li>
+                <li>
+                    <a href="#">凤凰数码</a><a href="#">PConline</a>
+                </li>
+                <li>
+                    <a href="#">泡泡网</a><a href="#">3W咖啡</a>
+                </li>
+                <li>
+                    <a href="#">ZUK社区</a><a href="#">亿觅emie</a>
+                </li>
+                <li>
+                    <a href="#">极客公园</a><a href="#">易迅易启玩</a>
+                </li>
+                <li>
+                    <a href="#">果库</a>
+                </li>
+            </ul>
+            <ul class="bot-4">
+                <p>购买攻略</p>
+                <li><a href="#">美亚海淘教程</a></li>
+                <li><a href="#">日亚海淘教程</a></li>
+                <li><a href="#">海淘转运攻略</a></li>
+                <li><a href="#">kickstarter 众筹购买攻略</a></li>
+                <li><a href="#">indiegogo 众筹购买攻略</a></li>
+            </ul>
+            <ul class="bot-4">
+                <p>厂商合作</p>
+                <li><a href="#">关于极果</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">商务合作：BD@jiguo.com</a></li>
+                <li><a href="#">CEO邮箱：CEO@jiguo.com</a></li>
+            </ul>
+            <span class="bquan">@ 2016 极果版权所有</span>
+        </div>
+         
+    </div>
 </body>
+<script src="../js/jquery.min.js"></script>
+<script id="first" type="text/html">
+    {{each value}}
+        <li>
+           <img src="{{$value.img}}" alt="">
+           <h3>{{$value.text}}</h3>
+           <div><div><span>{{$value.totalnum}}</span><span>{{$value.num}}台</span></div></div>
+           <p><span>{{$value.apply}}</span><span>申请</span></p>
+           <span class="xr-sp2">{{$value.info_ty}}</span>
+           <span class="xr-sp"></span>
+        </li>
+    {{/each}}
+</script>
+<script src="../js/template-web.js"></script>
+<script src="../js/help.js"></script>
 </html>
