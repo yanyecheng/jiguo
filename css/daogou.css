@@ -49,6 +49,12 @@
   padding: 25px 0px;
 }
 
+.dg-zx .xla {
+  width: 100%;
+  text-align: center;
+  color: #f65b3d;
+}
+
 .dg-zx .dg-box {
   width: 1000px;
   margin: 0 auto;

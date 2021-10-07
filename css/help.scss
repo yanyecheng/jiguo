@@ -27,11 +27,15 @@
                 height: 50px;
                 text-align: center;
                 line-height: 50px;
-                color: #b5b8bd;
+                a{
+                    color: #b5b8bd;
+                }
             }
             .mfsy-b-c{
                 border-bottom: 4px solid #fe5339;
-                color: #fe5339;
+                a{
+                    color: #fe5339;
+                }
             }
         }
     }
@@ -54,11 +58,15 @@
                 height: 50px;
                 line-height: 50px;
                 text-align: center;
-                color: #90928d;
                 font-size: 14px;
+                a{
+                    color: #90928d;
+                }
             }
             .fl-col{
-                color: #393532;
+                a{
+                    color: #393532;
+                }
             }
         }
     }
@@ -84,6 +92,22 @@
             margin-bottom: 35px;
             margin-right: 37px;
             position: relative;
+            .col-h{
+                color: #b5b8bd !important;
+                border-color: #b5b8bd !important;
+            }
+            .col-g{
+                color: rgb(123,199,98) !important;
+                border-color: rgb(123,199,98) !important;
+            }
+            .xr-sp{
+                display: block;
+                width: 100%;
+                text-align: center;
+                margin-top: 5px;
+                font-size: 12px;
+                color: #f65b3d;
+            }
             img{
                 width: 220px;
                 height: 130px;
@@ -105,8 +129,8 @@
                         height: 25px;
                         line-height: 25px;
                         text-align: center;
-                        border: 1px solid #cfcfcf;
-                        color: #cfcfcf;
+                        border: 1px solid #f65b3d;
+                        color: #f65b3d;
                         border-radius: 5px;
                         padding: 0px 11px;
                     }
@@ -138,5 +162,10 @@
                 font-size: 12px;
             }
         }
+    }
+    p{
+        width: 100%;
+        text-align: center;
+        color: #f65b3d;
     }
 }

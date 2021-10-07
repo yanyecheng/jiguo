@@ -35,11 +35,17 @@
   height: 50px;
   text-align: center;
   line-height: 50px;
+}
+
+.mfsy .mfsy-b div span a {
   color: #b5b8bd;
 }
 
 .mfsy .mfsy-b div .mfsy-b-c {
   border-bottom: 4px solid #fe5339;
+}
+
+.mfsy .mfsy-b div .mfsy-b-c a {
   color: #fe5339;
 }
 
@@ -67,11 +73,14 @@
   height: 50px;
   line-height: 50px;
   text-align: center;
-  color: #90928d;
   font-size: 14px;
 }
 
-.mfsy-fl div div .fl-col {
+.mfsy-fl div div span a {
+  color: #90928d;
+}
+
+.mfsy-fl div div .fl-col a {
   color: #393532;
 }
 
@@ -103,6 +112,25 @@
   position: relative;
 }
 
+.mfsy-qb .qb-box li .col-h {
+  color: #b5b8bd !important;
+  border-color: #b5b8bd !important;
+}
+
+.mfsy-qb .qb-box li .col-g {
+  color: #7bc762 !important;
+  border-color: #7bc762 !important;
+}
+
+.mfsy-qb .qb-box li .xr-sp {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 12px;
+  color: #f65b3d;
+}
+
 .mfsy-qb .qb-box li img {
   width: 220px;
   height: 130px;
@@ -130,8 +158,8 @@
   height: 25px;
   line-height: 25px;
   text-align: center;
-  border: 1px solid #cfcfcf;
-  color: #cfcfcf;
+  border: 1px solid #f65b3d;
+  color: #f65b3d;
   border-radius: 5px;
   padding: 0px 11px;
 }
@@ -162,4 +190,10 @@
   color: #fff;
   border-radius: 0px 5px 0px 5px;
   font-size: 12px;
+}
+
+.mfsy-qb p {
+  width: 100%;
+  text-align: center;
+  color: #f65b3d;
 }

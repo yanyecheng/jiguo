@@ -32,24 +32,25 @@
         </div>
         <div class="mfsy-b">
             <div>
-                <span >大众试用</span>
-                <span class="mfsy-b-c">体验师专享</span>
+                <span ><a href="../help.html">试用中</a></span>
+                <span class="mfsy-b-c"><a href="">试用中</a></span>
             </div>
         </div>
     </div>
     <div class="mfsy-fl">
         <div>
             <div>
-                <span class="fl-col">全部</span>
-                <span >申请中</span>
-                <span >试用中</span>
-                <span >已结束</span>
+                <span class="fl-col"><a href="">全部</a></span>
+                <span ><a href="./dzsqzz.html">申请中</a></span>
+                <span ><a href="./dzsyz.html">试用中</a></span>
+                <span ><a href="./dzjs.html">已结束</a></span>
             </div>
         </div>
     </div>
     <div class="mfsy-qb">
         <ul class="qb-box">
         </ul>
+        <p class="xla">没有更多啦~</p>
     </div>
     <!-- 公共下 -->
     <div class="bottom">
@@ -116,16 +117,16 @@
 <script src="../js/jquery.min.js"></script>
 <script id="first" type="text/html">
     {{each value}}
-        <li>
-           <img src="{{$value.img}}" alt="">
-           <h3>{{$value.text}}</h3>
-           <div><div><span>{{$value.totalnum}}</span><span>{{$value.num}}台</span></div></div>
-           <p><span>{{$value.apply}}</span><span>申请</span></p>
-           <span class="xr-sp2">{{$value.info_ty}}</span>
-           <span class="xr-sp"></span>
-        </li>
+    <li class="list_">
+        <img src="{{$value.img}}" alt="">
+        <h3>{{$value.text}}</h3>
+        <div><div><span class="bji">{{$value.totalnum}}</span><span class="bji1">{{$value.num}}台</span></div></div>
+        <p><span>{{$value.apply}}</span><span>申请</span></p>
+        <span class="xr-sp2">{{$value.info_ty}}</span>
+        <span class="xr-sp"></span>
+     </li>
     {{/each}}
 </script>
 <script src="../js/template-web.js"></script>
-<script src="../js/help.js"></script>
+<script src="../js/dzhong-sq copy 2.js"></script>
 </html>
