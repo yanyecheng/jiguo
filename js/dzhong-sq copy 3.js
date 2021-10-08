@@ -2,7 +2,7 @@ var ul_ = document.getElementsByClassName('qb-box')[0].getElementsByTagName("li"
 console.log(ul_);
 function fn(){
   var oajax = new XMLHttpRequest() || new ActiveXObject('Microsoft.XMLHTTP');
-  oajax.open('get','http://192.168.31.136:3000/useing/master',true)
+  oajax.open('get','http://192.168.1.32:3000/useing/master',true)
 oajax.send() ;
 oajax.onreadystatechange = function(){
  if(oajax.readyState == 4 ){

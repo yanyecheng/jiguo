@@ -1,6 +1,6 @@
 function fn(){
   var oajax = new XMLHttpRequest() || new ActiveXObject('Microsoft.XMLHTTP');
-  oajax.open('get','http://192.168.31.136:3000/guid/new',true)
+  oajax.open('get','http://192.168.1.32:3000/guid/new',true)
   oajax.send() ;
   oajax.onreadystatechange = function(){
    if(oajax.readyState == 4 ){
